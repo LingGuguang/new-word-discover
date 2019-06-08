@@ -4,8 +4,8 @@ python 3.6
 直接运行find_new_word.py就能用,里面有两个参数:FREE_THRESHOLD自由度和SOLID_THRESHOLD凝固度,调节两个阈值可以限制新词的门槛.
 
 介绍一下每个文件:
-1.BILIBILI.py 是爬弹幕的代码,可惜b站换策略不能用了
-2.danmu.txt 爬到的弹幕都存到这里了
++  1.BILIBILI.py 是爬弹幕的代码,可惜b站换策略不能用了
++  2.danmu.txt 爬到的弹幕都存到这里了
 3.perTreatment.py 删掉了特殊符号
 4.Delete.py  把太短的弹幕删了，重复的也删了，防止例如'干死孙一峰'这种短语的凝固度太高。
 5.save.py 相对干净的弹幕
