@@ -1,7 +1,6 @@
 import numpy as np 
-import pandas as pd 
 import re
-import math
+import math 
 
 class newWord(object):
     
@@ -10,8 +9,8 @@ class newWord(object):
     def __init__(self, tolerance):
         self.tolerance = tolerance
         self.MAX_TOLERANCE = 5
-        self.FREE_THRESHOLD = 1.4
-        self.SOLID_THRESHOLD = 40
+        self.FREE_THRESHOLD = 2 #自由度阈值
+        self.SOLID_THRESHOLD = 45   #凝固度阈值
         self.words = []
         self.prob = {} #频率用字典好查
         self.nighbor_words = {} #左右邻词频率
