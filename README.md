@@ -1,5 +1,5 @@
 # new-word-discover
-基于b站弹幕的新词发现，无先验词库(其实是我还没加功能)，从单字开始发现新词。
+基于b站弹幕的新词发现，无先验词库(是我还没加)，从单字开始发现新词。
 python 3.6
 直接运行find_new_word.py就能用,里面有两个参数:FREE_THRESHOLD自由度和SOLID_THRESHOLD凝固度,调节两个阈值可以限制新词的门槛.
 
